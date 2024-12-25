@@ -1,0 +1,103 @@
+body{
+  height: 95vh;
+  color: white;
+  font-family: "Lato", sans-serif;
+  /* background-image: linear-gradient(#02327efb,#1be6f1); */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02)), url('WhatsApp\ Image\ 2024-03-24\ at\ 17.59.02_e3d027c9.jpg');
+  background-size: cover;
+  opacity: 0.8;
+}
+header{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  max-width: 90vw;
+  max-height: 4rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  /* animation: slide 2s ease-in-out 0s infinite forwards normal; */
+}
+@keyframes slide{
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-100%); }
+}
+.header ul{
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.9rem;
+  list-style: none;
+  cursor: pointer;
+}
+header ul i{
+  font-size: 3rem;
+}
+/* header #btn{
+  padding: 0.3rem;
+  font-size: 1.4rem;
+  position: relative;
+  left: 2rem;
+  border: 0.1rem solid transparent;
+  border-radius: 2rem;
+  background-color: aliceblue;
+} */
+.header ul #one{
+  font-size: 2rem;
+  font-weight: bolder;
+  /* position: relative;
+  right: 3.5rem; */
+}
+main{
+  margin: 1rem;
+  margin-left: 5rem;
+  padding: 0.5rem;
+  max-height: 40vh;
+  max-width: 45vw;
+}
+main .info{
+  max-width: 27vw;
+}
+main h1{
+  font-size: 3.25rem;
+  font-weight: bolder;
+}
+main .course{
+  display: flex;
+  border: 0.1rem solid black;
+  max-width: 80vw;
+  margin-left: 9rem;
+}
+footer{
+  border-radius: 10rem;
+  margin: 1rem;
+  margin-left: 4rem;
+  width: 90vw;
+  height: 7rem;
+  position: absolute;
+  bottom: 0rem;
+  opacity: 2;
+  /* overflow-x: auto; Enable horizontal scrolling */
+  overflow-x: none; /*prevent horizontal scrolling*/
+  white-space: nowrap; /* Prevent wrapping of footer items */
+}
+footer .course {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  height: 4.75rem;
+  width: 130%; /* Set width to auto to fit content */
+  /* transform: translateY(0);
+  transition: transform 0.3s ease;  */
+  animation: slideAnimation 20s linear infinite; 
+}
+@keyframes slideAnimation {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
