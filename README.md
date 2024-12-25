@@ -36,15 +36,7 @@ Mohammad Ehshan
 2. Open `index.html` in a modern web browser
 3. No additional setup or dependencies required
 
-## Current Limitations
-- The landing page is currently not responsive
-- Best viewed on desktop devices
 
-## Future Improvements
-- [ ] Add responsive design for mobile and tablet devices
-- [ ] Implement media queries for different screen sizes
-- [ ] Optimize animations for mobile devices
-- [ ] Add breakpoints for flexible layouts
 
 ## Browser Support
 - Chrome (latest)
